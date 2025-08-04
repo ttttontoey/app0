@@ -1,16 +1,17 @@
 import react from 'react'
 // import'./style.css'
-import { Content, Header, Footer } from './func-components';
+// import { Content, Header, Footer } from './func-components';
 // import Calendar from './class-components';
-import Button from './class-components';
-import { Calculator2 } from './calculator';
+// import Button from './class-components';
+// import { Calculator2 } from './calculator';
+import { EventData2 } from './event-data'
 
-function App() {
-  // return <Button/>
-  return <Calculator2/>
-}
+// function App() {
+//   // return <Button/>
+  
+// }
 
-export default App;
+export default function App() { return <EventData2/>}
 
 // return(
   // <>
@@ -26,3 +27,4 @@ export default App;
   //   <div className='title'>React & React Native</div>
   //   </>
   // ) 
+  // <Calculator2/>
