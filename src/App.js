@@ -3,9 +3,11 @@ import react from 'react'
 import { Content, Header, Footer } from './func-components';
 // import Calendar from './class-components';
 import Button from './class-components';
+import { Calculator2 } from './calculator';
 
 function App() {
-  return <Button/>
+  // return <Button/>
+  return <Calculator2/>
 }
 
 export default App;
