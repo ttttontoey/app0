@@ -5,14 +5,15 @@ import react from 'react'
 // import Button from './class-components';
 // import { Calculator2 } from './calculator';
 // import { EventData2 } from './event-data'
-import RefArray from './refs-array'
+// import RefArray from './refs-array'
+import MessageBox from './state-func'
 
 // function App() {
 //   // return <Button/>
   
 // }
 
-export default function App() { return <RefArray/>}
+export default function App() { return <MessageBox/>}
 
 // return(
   // <>
