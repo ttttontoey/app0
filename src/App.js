@@ -4,14 +4,15 @@ import react from 'react'
 // import Calendar from './class-components';
 // import Button from './class-components';
 // import { Calculator2 } from './calculator';
-import { EventData2 } from './event-data'
+// import { EventData2 } from './event-data'
+import RefArray from './refs-array'
 
 // function App() {
 //   // return <Button/>
   
 // }
 
-export default function App() { return <EventData2/>}
+export default function App() { return <RefArray/>}
 
 // return(
   // <>
