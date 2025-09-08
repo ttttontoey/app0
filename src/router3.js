@@ -1,6 +1,11 @@
 import React from "react";
-import { BrowserRouter , NavLink } from "react-router-dom";
+import { BrowserRouter , NavLink, Route, Routes} from "react-router-dom";
+import './products.css'
 import './navlink.css'
+import Products from "./products";
+import Home from "./home";
+import Member from "./member";
+
 
 export default function Router2(){
     return(
@@ -16,6 +21,13 @@ export default function Router2(){
             <NavLink to='/member' className={({isActive})=>isActive?"active_menu":"menu"}>Member</NavLink> -&nbsp;
             <NavLink to='/contact'className={({isActive})=>isActive?"active_menu":"menu"}>Contact Us</NavLink>
             </nav>
+            <Routes style={{margin:'20px'}}>
+                <Route path="/"element={<Home/>}/>
+                <Route path="/products"element={<Products/>}/>
+                <Route path="/member" Component={Member}/>
+                <Route path="/contact"element={<div style={{textAlign:'center'}}>Contact Page</div>}/>
+                <Route path="/*"element={<div style={{textAlign:'center'}}>Error 404 Not Found</div>}/>
+            </Routes>
         </BrowserRouter>
     )
 }    
