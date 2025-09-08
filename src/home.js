@@ -6,7 +6,7 @@ export default function Home(){
             <h3>ยินดีต้องรับสู่ React Store</h3>
             รายชื่อ <a href="/products">สินค้า</a>ที่เรามีจำหน่าย<br/>
             แต่ท่าต้องเป็น<a href="/member">สมาชิก</a>จึงจะสั่งซื้อได้<br/>
-            หากมีข้อสุงสัย กรุณา<a href="/contact">ติดต่อเรา</a>
+            หากมีข้อสงสัย กรุณา<a href="/contact">ติดต่อเรา</a>
         </p>
     )
 }
