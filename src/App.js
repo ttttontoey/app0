@@ -1,9 +1,15 @@
-import React from 'react'
-import Router2 from "./router3"
-
+import React from 'react';
+import FormText from './form-text';
 export default function App() {
-return <Router2/>
+  return <FormText />;
 }
+
+
+// import Router2 from "./router3"
+
+// export default function App() {
+// return <Router2/>
+// }
 
 
 // import { useState } from "react";
